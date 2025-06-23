@@ -2,7 +2,6 @@ import { Divider, Grid, Text } from '@nextui-org/react';
 import React from 'react';
 import { Flex } from '../styles/flex';
 import {
-  FaGithub,
   FaBolt,
   FaSearch,
   FaFileCode,
@@ -11,6 +10,7 @@ import {
   FaCode,
   FaRocket
 } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
 
 export const Trusted = () => {
   return (
