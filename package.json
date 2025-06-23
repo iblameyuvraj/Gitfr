@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "Gitfr",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -24,7 +24,9 @@
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0",
     "typescript": "4.8.3"
-"engines": "node": "20.x",
-}
+  },
+  "engines": {
+    "pnpm": "10.12.1"
+  }
 }
 
