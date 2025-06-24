@@ -1,2 +1,7 @@
+[build]
+  command = "pnpm install && pnpm run build"
+  publish = "out"
+
 [build.environment]
   NODE_VERSION = "20"
+  NETLIFY_USE_PNPM = "true"
